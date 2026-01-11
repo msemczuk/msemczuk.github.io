@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Academic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            display: flex;
+            gap: 40px;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 30px;
+            align-items: center;
+        }
+        
+        .profile-image {
+            flex-shrink: 0;
+        }
+        
+        .profile-image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #f0f0f0;
+        }
+        
+        .header-text {
+            flex-grow: 1;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .position {
+            font-size: 1.15em;
+            color: #555;
+            margin-bottom: 5px;
+        }
+        
+        .affiliation {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            margin-top: 15px;
+        }
+        
+        .contact a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #222;
+        }
+        
+        .bio {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        
+        .ads-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .ads-link:hover {
+            background-color: #0052a3;
+        }
+        
+        .under-construction {
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 3px solid #ddd;
+        }
+        
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile-image img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-image">
+            <img src="profile.jpg" alt="Your Name">
+        </div>
+        <div class="header-text">
+            <h1>Marcin Semczuk</h1>
+            <div class="position">Postdoctoral researcher</div>
+            <div class="affiliation">Institut de Ciencies del Cosmos, Universitat de Barcelona</div>
+            <div class="contact">
+                <a href="mailto:msemczuk@fqa.ub.edu">Email</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p class="bio">
+            Hello! I am an astrophysicist working on the dynamics and morphology of galaxies. I completed my PhD at the Nicolaus Copernicus Astronomical Center in Warsaw in 2019. After that, I was a postdoctoral researcher at the University of Leicester for four years before moving to the Gaia Group at the Universitat de Barcelona in 2023.
+        </p>
+        <p class="bio">
+            In my work, I study the formation, evolution, and dynamics of morphological features in spiral galaxies. These include bars (both single and double), spiral arms, and warps. I often use computer simulations of galaxies, which I compare with observational data of the Milky Way and external galaxies.        </p>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+        <p>My publications are available in this ADS library:</p>
+        <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FRO7hi4tGRIO3jE0VTM-gDA)&sort=date%20desc%2C%20bibcode%20desc&p_=0" class="ads-link" target="_blank">View Publications on ADS</a>
+    </section>
+
+    <section>
+        <h2>Research</h2>
+        <p class="under-construction">Under construction</p>
+    </section>
+
+    <footer>
+        <p>Last updated: January 2026</p>
+    </footer>
+</body>
+</html>
